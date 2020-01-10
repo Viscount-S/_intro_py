@@ -130,3 +130,8 @@ list = [2,7,19,34,53,71,77,78,90,99,101] #Use of lists in data
 # Print the search result
 print(index_point_search(list,77))
 print(index_point_search(list,53))
+
+print('START-------------------- Brute force algorithm------------')
+
+# We search for an element one by one- i.e from the first index to the last
+# when we fid, it, we break and return the index
